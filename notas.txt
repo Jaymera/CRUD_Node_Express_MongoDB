@@ -1,0 +1,66 @@
+- consegue pegar atualização do arquivo
+nodemon ./server.js
+
+- debug
+nodemon -- inspect ./server.js
+- install nodemon
+npm install nodemon -D
+- colocar dentro do arquivo package.jsons
+npm run dev
+
+- laung.json
+configurations:
+type node
+request attach
+name Debug Nodemon
+protocol inspector
+restart true
+
+install	i	Instala um novo módulo
+list	ls	Lista os módulos instalados
+test	t	Executa o script de teste especificado no package.json
+--global	-g	Usado como um sinalizador para instalar um pacote globalmente (não só na pasta do projeto
+--save	-S	Salva o módulo ao instalar
+--save-exact	-E	Salva o módulo ao instalar, porém na versão exata mencionada
+--save-dev	-D	Salva o módulo ao instalar, porém como uma dependência de desenvolvimento
+
+npm home	Abre a página do projeto
+npm repo	Abre o repositório de código do projeto
+npm audit	Executa uma auditoria no projeto para identificar se existe alguma dependência com vulnerabilidade conhecida
+npm update	Atualiza projetos para a última versão respeitando o package.json
+npm outdated	Retorna a lista de dependências desatualizadas mostrando a versão mais recente
+npm adduser	Adiciona um novo usuario no https://registry.npmjs.org para permitir a publicação de pacotes
+npm publish	Faz a publicação do pacote no NPM
+
+String: É o tipo que contém uma sequência de texto;
+Integer (32 bit e 64-bit): É o tipo para armazenar um valor numérico;
+Boolean: Usamos para armazenar valores True ou False;
+Double: Usamos para armazenar valores de ponto flutuantes;
+Min/Max Keys: É o tipo usado para comparar um valor contra o menor e maior elementos do BSON mais elevados respectivamente;
+Array: É usado para armazenar matrizes ou lista de valores múltiplos em uma única chave;
+TimeStamp: Este tipo é utilizado quando armazenamos uma data e hora;
+Object: Usamos para armazenar documentos incorporados;
+Null: É tipo para valores nulos;
+Symbol: É o tipo para valor string, que utiliza algum caractere ou símbolo especial, geralmente de outros idiomas;
+Date: Usamos para armazenar a data ou a hora atual;
+ObjectID: É o tipo que armazena o identificador do documento (ID);
+Binary Data: Usamos para armazenar um conjunto de dados binários;
+Regular Expression: Utilizado para expressões regulares, representadas por caracteres específicos previsto em ordem alfabética;
+Code: Utilizado para armazenar códigos em JavaScript dentro do documento.
+
+- Permissão do atlas para funcionar em todas as maquinas a conexão
+MongoDB Atlas -> NetworkAccess -> Edit -> Allow Any
+
+GET	Obter os dados de um recurso.
+POST	Criar um novo recurso.
+PUT	Substituir os dados de um determinado recurso.
+PATCH	Atualizar parcialmente um determinado recurso.
+DELETE	Excluir um determinado recurso.
+HEAD	Similar ao GET, mas utilizado apenas para se obter os cabeçalhos de resposta, sem os dados em si.
+OPTIONS	Obter quais manipulações podem ser realizadas em um determinado recurso.
+
+Ctrl + D - Faz a troca dos nomes iguais
+
+Utilizar o comando populate() para fazer a associação de dados, determinando campos específicos ou selecionando todos os dados do recurso;
+
+
